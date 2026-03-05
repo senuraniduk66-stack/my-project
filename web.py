@@ -7,6 +7,7 @@ def home():
     return """
     <h1>My Small Python Website</h1>
     <p>Welcome to my web application.</p>
+    <p>Here We Goo..</p>
     <a href='/about'>Go to About Page</a>
     """
 
@@ -20,3 +21,4 @@ def about():
 
 if __name__ == "__main__":
     app.run(debug=True) #new comment
+
