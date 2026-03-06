@@ -17,6 +17,13 @@ def about():
     <p>This is a simple website made using Python and Flask.</p>
     <a href='/'>Back to Home</a>
     """
+@app.route("/contact")
+def contact():
+    return """
+    <h2>Contact</h2>
+    <p>You can contact us at: myemail@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    """
 
 if __name__ == "__main__":
     app.run(debug=True) #new comment
